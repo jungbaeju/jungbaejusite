@@ -1,6 +1,6 @@
 <script>
 	// Import Header component
-    import Header from '../lib/Header.svelte';
+    import Header from '$lib/Header.svelte';
 </script>
     <!--<Header name="JungBae Ju"/>-->
     <link rel="preconnect" href="https://fonts.googleapis.com">

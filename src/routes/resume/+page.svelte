@@ -1,5 +1,5 @@
 <script>
-    import Header from "../../lib/Header.svelte";
+    import Header from "$lib/Header.svelte";
 
     let edu_sect, opera_sect, ora_exp_sect, conc_sect, job_sect, other_sect, vol_sect, awa_sect, rol_sect, ora_sect = false;
 

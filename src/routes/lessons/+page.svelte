@@ -1,6 +1,6 @@
 <script>
-    import EmbedForm from "../../lib/EmbedForm.svelte";
-    import Header from "../../lib/Header.svelte";
+    import EmbedForm from "$lib/EmbedForm.svelte";
+    import Header from "$lib/Header.svelte";
     let page_color = '#354c7c';
 </script>
 

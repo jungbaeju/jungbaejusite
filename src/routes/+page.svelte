@@ -3,11 +3,11 @@
 <script>
 	import { goto } from '$app/navigation';
     import { onMount } from 'svelte';
-    import Header from '../lib/Header.svelte';
-    import { name } from "../lib/data"
-    import VideoCarousel from '../lib/VideoCarousel.svelte';
+    import Header from '$lib/Header.svelte';
+    import { name } from "$lib/data"
+    import VideoCarousel from '$lib/VideoCarousel.svelte';
     import { throttle } from 'lodash-es'; // Lodash throttle function
-    import MadeBy from '../lib/MadeBy.svelte';
+    import { base } from '$app/paths';
 
     const videoContent = [
         { 
@@ -86,9 +86,9 @@
             </div>
             <hr class="custom-line">
             <div class="goto-container">
-                <a href="/contact" class="butt contact">Contact</a>
-                <a href="/lessons" class="butt lessons">Lessons</a>
-                <a href="/resume" class="butt lessons">Resume</a>
+                <a href="${base}/contact" class="butt contact">Contact</a>
+                <a href="${base}/lessons" class="butt lessons">Lessons</a>
+                <a href="${base}/resume" class="butt lessons">Resume</a>
             </div>
 
         </div>

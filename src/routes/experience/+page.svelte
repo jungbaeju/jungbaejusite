@@ -138,7 +138,7 @@
 
 
 <script>
-    import Header from "../../lib/Header.svelte";
+    import Header from "$lib/Header.svelte";
     const videoContent = [
         { 
             id: 'qbTMzO53Lv0', 

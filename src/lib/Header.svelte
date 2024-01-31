@@ -1,7 +1,8 @@
 <script>
     import { slide } from "svelte/transition";
     import { quintOut } from "svelte/easing";
-    import { name } from "./data.js"
+    import { name } from "$lib/data.js"
+    import { base } from '$app/paths';
     export let h_color = 'transparent';
     export let t_color = 'red';
     export let b_color = 'white'
@@ -35,10 +36,10 @@
     {#if menuOpen}
         <div class="overlay">
             <ul class="menu" style="background-color: transparent;">
-                <li><a href="/">Home</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/lessons">Lessons</a></li>
-                <li><a href="/resume">Resume</a></li>
+                <li><a href="${base}/">Home</a></li>
+                <li><a href="${base}/contact">Contact</a></li>
+                <li><a href="${base}/lessons">Lessons</a></li>
+                <li><a href="${base}/resume">Resume</a></li>
             </ul>
         </div>
     {/if}
