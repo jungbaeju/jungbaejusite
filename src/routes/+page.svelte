@@ -86,9 +86,9 @@
             </div>
             <hr class="custom-line">
             <div class="goto-container">
-                <a href="${base}/contact" class="butt contact">Contact</a>
-                <a href="${base}/lessons" class="butt lessons">Lessons</a>
-                <a href="${base}/resume" class="butt lessons">Resume</a>
+                <a href="{base}/contact" class="butt contact">Contact</a>
+                <a href="{base}/lessons" class="butt lessons">Lessons</a>
+                <a href="{base}/resume" class="butt lessons">Resume</a>
             </div>
 
         </div>
