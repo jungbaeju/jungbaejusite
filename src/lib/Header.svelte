@@ -25,7 +25,7 @@
 
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="name-top" style="color: {t_color}"><a class="name-top" style="color: {t_color}" href="/">""</a></div>
+    <div class="name-top" style="color: {t_color}"><a class="name-top" style="color: {t_color}" href="{base}/">{name}</a></div>
     <button class={menuOpen ? 'ham-icon diff':"ham-icon"} on:click={toggleMenu} style="border-color: {b_color};">
         <div class={menuOpen ? 'bar1 change' : 'bar1'} style="background-color: {b_color};"></div>
         <div class={menuOpen ? 'bar2 change' : 'bar2'} style="background-color: {b_color};"></div>
