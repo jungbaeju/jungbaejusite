@@ -66,7 +66,7 @@
         <div class="location-block">
             <p>Bergen County, <br>New Jersey</p>
         </div>
-        <img src="/images/Attachment-13.jpg" alt="JungBae" class="wide-image img1">
+        <img src="{base}/images/Attachment-13.jpg" alt="JungBae" class="wide-image img1">
         <div class="spacer one"></div>
 
     </div>
@@ -76,7 +76,7 @@
             <p>     After completing his Bachelor’s Degree as a full scholarship recipient at the Hanyang University, JungBae Ju completed his Master's degree at Manhattan School of Music. 
                     Ju has studied with Edith Bers, Armen Boyajin, and Mario Bertolino.
             </p>
-            <img src="/images/Attachment-8-2.png" alt="JungBae2" class="wide-image img2">
+            <img src="{base}/images/Attachment-8-2.png" alt="JungBae2" class="wide-image img2">
             <p> As an active opera singer, Mr. Ju has covered broad operatic repertoires including La Bohem as Marcello, Pagliacci as Tonio and Silvio, Don Giovanni as Leporello, Le Nozze di Figaro as Il Conte di Almaviva, La Traviata as Georgio Germont, Faust as Valentin, Il Trovatore as Il Conte di Luna, Aida as Amonasro, and Andrea Chenier as Gerard. 
                 Most recently, Mr. Ju has sung Handel’s Messiah in the Korean Church Association in New Jersey and made his debut in the 50th Korean Independent Memorial Concert in Connecticut. 
                 He also has been a music director to serve the Korean Grace Presbyterian Church in New Jersey since 1995.
