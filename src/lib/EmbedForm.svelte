@@ -165,6 +165,7 @@
         width: 50%;
         margin: 0;
         background-color: transparent;
+        color: black;
         border: 0.05rem solid black;
         height: 3rem;
         font-size: 1.5rem;

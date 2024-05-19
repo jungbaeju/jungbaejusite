@@ -8,7 +8,6 @@
     export let b_color = 'white'
     export let h_height = '5rem';
     export let b_border = '0;'
-    export let the_name = name;
 
     let menuOpen = false;
 
@@ -26,7 +25,7 @@
 
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="name-top" style="color: {t_color}"><a class="name-top" style="color: {t_color}" href="/">{the_name}</a></div>
+    <div class="name-top" style="color: {t_color}"><a class="name-top" style="color: {t_color}" href="/">""</a></div>
     <button class={menuOpen ? 'ham-icon diff':"ham-icon"} on:click={toggleMenu} style="border-color: {b_color};">
         <div class={menuOpen ? 'bar1 change' : 'bar1'} style="background-color: {b_color};"></div>
         <div class={menuOpen ? 'bar2 change' : 'bar2'} style="background-color: {b_color};"></div>
@@ -46,7 +45,7 @@
 <style>
     .header-container {
         position: fixed;
-        width: 100%;
+        width: 100vw;
         background-color: transparent;
         z-index: 899;
         left: 0;
