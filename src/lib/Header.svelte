@@ -65,6 +65,8 @@
         transition: 0.5s;
         height: 3rem;
         width: 3rem;
+        justify-content: center;
+        align-items: center;
 
     }
 
@@ -99,6 +101,7 @@
         background-color: #333; /* Bar color */
         margin: 0.3rem 0; /* Space between bars */
         transition: 0.3s;
+        padding: 0;
     }
 
     /* Transformations for X */
