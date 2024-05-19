@@ -60,7 +60,8 @@
         border: 0.25rem solid white;
         top: 0.5rem;
         right: 0.5rem;
-        display: fixed;
+        display: flex;
+        flex-direction: column;
         z-index: 2000;
         transition: 0.5s;
         height: 3rem;
@@ -99,23 +100,24 @@
         height: 0.3rem; /* Bar height */
         border-radius: 0.25rem;
         background-color: #333; /* Bar color */
-        margin: 0.3rem 0; /* Space between bars */
+        margin: 0.2rem 0; /* Space between bars */
         transition: 0.3s;
         padding: 0;
+        margin-left: 0;
+        left: 0;
     }
 
     /* Transformations for X */
     .change.bar1 {
-        transform: rotate(45deg) translate(0.45rem, 0.45rem);
+        transform: rotate(45deg) translate(0.5rem, 0.5rem);
     }
 
     .change.bar2 {
-        transform: translate(.75rem);
         width: .25rem;
     }
 
     .change.bar3 {
-        transform: rotate(-45deg) translate(0.4rem, -0.4rem);
+        transform: rotate(-45deg) translate(0.5rem, -0.5rem);
     }
 
     .overlay {
