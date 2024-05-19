@@ -16,7 +16,7 @@
     
         <div class="can-can" style="background-color: {page_color};">
             <p class="smaller">
-                If you would like to inquire about lessons contact directly or fill out the form and a response will be sent as soon as available.
+                If you would like lessons please contact directly and a response will be sent as soon as available.
             </p>
         </div>
         <div class="can-can" style="background-color: {page_color};">
@@ -31,7 +31,7 @@
         </div>
 
     </div>
-    <EmbedForm main_color = {page_color}/>
+    <!--<EmbedForm main_color = {page_color}/>-->
 </div>
 
 

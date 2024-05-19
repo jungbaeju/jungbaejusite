@@ -13,7 +13,7 @@
 
 <iframe title="iframe" name="hidden_iframe" id="hidden_iframe" style="display:none;" ></iframe>
 
-<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScauz_zgt1C-GVn5eVGpOZ4renPNSr7yZD8D-zzyLOMA3EG3A/formResponse" autocomplete="off" method="post" target="hidden_iframe" on:submit|preventDefault={handleSubmit}>
+<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScauz_zgt1C-GVn5eVGpOZ4renPNSr7yZD8D-zzyLOMA3EG3A/viewform" autocomplete="off" method="post" target="hidden_iframe" on:submit|preventDefault={handleSubmit}>
     <div class="form-header" style="background-color: {main_color};">Contact Form</div>
     {#if submitted}
         <div class="look-out" style="text-align: center; background-color: {main_color};">

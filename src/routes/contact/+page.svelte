@@ -10,8 +10,8 @@
     <div class="header-spacer"></div>
     <div class="page top">
         <div class="top con-dir contain-dir">
-            <h1 class="top con-dir bigger">Contact&nbsp;directly or&nbsp;use&nbsp;the&nbsp;form</h1>
-            <p class="top con-dir smaller">(Replies will be sent as available)</p>
+            <h1 class="top con-dir bigger">Contact&nbsp;Me&nbsp;Directly</h1>
+            <p class="top con-dir smaller">(Replies sent as soon as possible)</p>
         </div>
         <div class="con-con">
             <h1 class="top icon phone">
@@ -25,7 +25,7 @@
         </div>
 
     </div>
-    <EmbedForm main_color = '#7A4341'/>
+    <!--<EmbedForm main_color = '#7A4341'/>-->
 </div>
 
 
