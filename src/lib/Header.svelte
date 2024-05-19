@@ -36,10 +36,10 @@
     {#if menuOpen}
         <div class="overlay">
             <ul class="menu" style="background-color: transparent;">
-                <li><a href="${base}/">Home</a></li>
-                <li><a href="${base}/contact">Contact</a></li>
-                <li><a href="${base}/lessons">Lessons</a></li>
-                <li><a href="${base}/resume">Resume</a></li>
+                <li><a href="{base}/">Home</a></li>
+                <li><a href="{base}/contact">Contact</a></li>
+                <li><a href="{base}/lessons">Lessons</a></li>
+                <li><a href="{base}/resume">Resume</a></li>
             </ul>
         </div>
     {/if}
