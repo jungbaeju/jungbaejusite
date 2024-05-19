@@ -63,6 +63,8 @@
         display: fixed;
         z-index: 2000;
         transition: 0.5s;
+        height: 3rem;
+        width: 3rem;
 
     }
 
@@ -70,6 +72,7 @@
         position: fixed;
         top: 1rem;
         left: 1rem;
+        margin-left: 0.1rem;
         font-size: 2rem;
         font-family: 'Marck Script', sans-serif;
         font-weight: 900;
@@ -90,26 +93,26 @@
     }
 
     .bar1, .bar2, .bar3 {
-        width: 2rem; /* Bar width */
+        width: 1.75rem; /* Bar width */
         height: 0.3rem; /* Bar height */
         border-radius: 0.25rem;
         background-color: #333; /* Bar color */
-        margin: 0.4rem 0; /* Space between bars */
+        margin: 0.3rem 0; /* Space between bars */
         transition: 0.3s;
     }
 
     /* Transformations for X */
     .change.bar1 {
-        transform: rotate(45deg) translate(0.5rem, 0.5rem);
+        transform: rotate(45deg) translate(0.45rem, 0.45rem);
     }
 
     .change.bar2 {
-        transform: translate(0.75rem);
-        width: 0.25rem;
+        transform: translate(.75rem);
+        width: .25rem;
     }
 
     .change.bar3 {
-        transform: rotate(-45deg) translate(0.5rem, -0.5rem);
+        transform: rotate(-45deg) translate(0.4rem, -0.4rem);
     }
 
     .overlay {
