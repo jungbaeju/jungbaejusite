@@ -8,3 +8,7 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+/src/routes/lessons/sdf+page.svelte
+/src/routes/resume/asd+page.svelte
+/src/routes/contact/*
+/src/routes/experience/*

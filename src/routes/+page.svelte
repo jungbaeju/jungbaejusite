@@ -66,7 +66,7 @@
         <div class="location-block">
             <p>Bergen County, <br>New Jersey</p>
         </div>
-        <img src="{base}/images/Attachment-13.jpg" alt="JungBae" class="wide-image img1">
+        <img src="{base}/images/Attachment-13.webp" alt="JungBae" class="wide-image img1">
         <div class="spacer one"></div>
 
     </div>
@@ -76,7 +76,7 @@
             <p>     After completing his Bachelor’s Degree as a full scholarship recipient at the Hanyang University, JungBae Ju completed his Master's degree at Manhattan School of Music. 
                     Ju has studied with Edith Bers, Armen Boyajin, and Mario Bertolino.
             </p>
-            <img src="{base}/images/Attachment-8-2.png" alt="JungBae2" class="wide-image img2">
+            <img src="{base}/images/Attachment-8-2.webp" alt="JungBae2" class="wide-image img2">
             <p> As an active opera singer, Mr. Ju has covered broad operatic repertoires including La Bohem as Marcello, Pagliacci as Tonio and Silvio, Don Giovanni as Leporello, Le Nozze di Figaro as Il Conte di Almaviva, La Traviata as Georgio Germont, Faust as Valentin, Il Trovatore as Il Conte di Luna, Aida as Amonasro, and Andrea Chenier as Gerard. 
                 Most recently, Mr. Ju has sung Handel’s Messiah in the Korean Church Association in New Jersey and made his debut in the 50th Korean Independent Memorial Concert in Connecticut. 
                 He also has been a music director to serve the Korean Grace Presbyterian Church in New Jersey since 1995.
@@ -86,7 +86,6 @@
             </div>
             <hr class="custom-line">
             <div class="goto-container">
-                <a href="{base}/contact" class="butt contact">Contact</a>
                 <a href="{base}/lessons" class="butt lessons">Lessons</a>
                 <a href="{base}/resume" class="butt lessons">Resume</a>
             </div>
@@ -168,6 +167,7 @@
         font-weight: 700;
         color: black;
         text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+        overflow: visible;
     }
     .quote-block {
         position: absolute;
@@ -218,10 +218,10 @@
     .location-block {
         position: absolute;
         z-index: 1001;
-        font-size: 2.5vw;
+        font-size: 3vw;
         bottom: 37%;
         right: 0;
-        width: 20%;
+        width: 25%;
         text-align: left;
         padding-left: 2vw;
         margin-top: 0;
@@ -239,14 +239,14 @@
 
     .about-person{
         position: relative;
-        width: 100%;
+        width: 100vw;
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif;
         will-change: transform;
         z-index: 1000;
         font-size: 4vw;
         font-weight: 300;
-        background: rgba(160, 160, 160, 0.5); /* Translucent overlay */
+        background: rgba(160, 160, 160, 0.7); /* Translucent overlay */
         backdrop-filter: blur(1rem); /* Blur effect */
         padding: 1vw 10%; /* Default padding */
         /* Larger screens */

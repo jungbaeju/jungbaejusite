@@ -10,13 +10,13 @@
     <div class="header-spacer"></div>
     <div class="page top">
         <div class="top con-dir contain-dir">
-            <h1 class="top con-dir bigger">Contact&nbsp;Me&nbsp;Directly</h1>
-            <p class="top con-dir smaller">(Replies sent as soon as possible)</p>
+            <h1 class="top con-dir bigger">Contact&nbsp;Directly</h1>
+            <p class="top con-dir smaller">(A reply will be sent as soon as possible)</p>
         </div>
         <div class="con-con">
             <h1 class="top icon phone">
                 <span class=" icon material-symbols-outlined">phone</span>
-                201-803-5459
+                (201) 803-5459
             </h1>
             <h1 class="top icon email">
                 <span class=" icon material-symbols-outlined">mail</span>
