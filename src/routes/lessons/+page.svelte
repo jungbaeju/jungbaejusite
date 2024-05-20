@@ -72,7 +72,7 @@
             </p>
             <img src="{base}/images/Attachment-3.webp" alt="JungBae2" class="wide-image img2">
             <div class="imageblock"></div>
-            <p> Pictured above is a young JungBae Ju with his mentor. It is a reminder of how far he has come in practicing voice. Below are some samples of his singing, feel free to scroll through the videos in order to get a taste of how JungBae Ju sings.
+            <p> Pictured above is young JungBae Ju with his mentor. It is a reminder of how far he has come in practicing voice. Below are some samples of his singing, feel free to scroll through the videos to get a taste of how JungBae Ju sings.
             </p>
             <div class="caro-contain">
                 <VideoCarousel {videoContent}/>
